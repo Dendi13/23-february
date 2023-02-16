@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    background: url(img/1603841555_50-p-fon-velikaya-otechestvennaya-voina-dlya-pr-73.jpg) no-repeat center / cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.block1 {
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    font-size: 40;
+}
+
+.block2 {
+    width: 250px;
+    height: 55px;
+    background-color: blue;
+}
+.block3 {
+    width: 250px;
+    height: 55px;
+    background-color: red;
+    
+}
+.str1{
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color:blanchedalmond;
+    border-radius: 15px;
+    display: none;
+}
+.str2{
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color:blanchedalmond;
+    border-radius: 15px;
+    display: none;
+}
+.str3 {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color:blanchedalmond;
+    border-radius: 15px;
+    display: none;
+}
+.btn{
+    margin-top: 190px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(224, 195, 158);
+    display:none;
+}
